@@ -43,7 +43,7 @@ nav {
 
 nav a {
     display:block;
-    color: var(--nav-hover-link-color)
+    color: var(--nav-hover-link-color);
     text-decoration: none;
     padding: 1rem;
 
