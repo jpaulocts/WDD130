@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Roboto+Condensed:wght@300&family=Roboto+Serif:opsz,wght@8..144,100&family=Rubik:wght@300&display=swap');
+
+:root {
+    --primary-color: #8EA4D2 ;
+    --secondary-color:#E63462 ;
+    --accent1-color : #FDFCDC;
+    --accent2-color : #4C9F70;
+
+    --heading-font: 'bitter' , serif;
+    --paragraph-font:'rubik',serif;
+
+    --nav-background-color:#8EA4D2;
+    --nav-link-color: #E63462;
+    --nav-hover-link-color: #FDFCDC;
+    --nav-hover-background-color: #4C9F70;
+}
+
+body {
+    max-width: 960px;
+    padding:20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header { 
+    padding: 20px;
+    background-color: var(--accent1-color); 
+}
+
+p {
+    padding: 25px;
+}
