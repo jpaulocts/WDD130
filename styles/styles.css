@@ -29,7 +29,7 @@ h1 {
 }
 
 main img {
-  width: 200px;
+  width: 150px;
   height: auto;
   border: 1px solid steelblue;
   padding: 2px;
@@ -65,7 +65,7 @@ footer {
 /* Class Selectors */
 
 .box {
-  margin: 0rem;
+  margin: 1rem;
   border: 1px solid rgba(0,0,0,.1);
   padding : 1rem;
   background-color: #ddd;
