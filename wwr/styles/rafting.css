@@ -148,16 +148,37 @@ article img {
 
 .one { 
     background-color: var(--nav-hover-link-color);
+    height: 30%;
     
 }
 
 .one h2{
-    background-color:#E63462;
+    background-color:var(--secondary-color);
     width: 100%;
     border: 2px solid black;
     margin-top: 2rem;
 }
 
+.history{
+    display: grid;
+    grid-template-columns: 1fr 300px 1fr;
+    justify-content: flex-start;
+    margin-top: .5rem;
+    
+}
+
+.history img{
+    justify-self:center;
+    width: 300px;
+    height: auto;
+
+}
+
+.history p{
+
+    justify-content: center;
+
+}
 section {
 
     width: 100%;
