@@ -186,13 +186,13 @@ section {
     position: relative;
 }
 .flexbox-container {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     background-color: var(--nav-hover-link-color);
-    grid-template-columns: repeat(5, 1fr);
     gap :1px;
     max-width: 100%;
-    justify-items: center;
-    column-gap: 15px;
+    justify-content: space-evenly;
+    gap: 10px;
      
 }
     
