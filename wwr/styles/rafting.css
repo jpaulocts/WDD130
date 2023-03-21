@@ -176,8 +176,8 @@ article img {
 
 .history p{
 
-    justify-content: center;
-
+    justify-content: flex-start;
+  
 }
 section {
 
@@ -254,4 +254,103 @@ footer div {
 footer a {
 
     text-decoration: none;
+}
+
+.information {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:beige;
+    flex-flow: column-reverse wrap;
+    justify-content:space-evenly;
+    
+
+}
+
+.map{
+padding: 20px;
+grid-row: 1/2;
+grid-column: 2/3;
+
+}
+
+form { 
+    width: 650px;
+    margin: 20px ;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-rows: 200px 300px 200px;
+    
+
+}
+
+.header{
+    display: grid;
+    grid-gap: .5rem;
+    grid-row: 1/2;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+.main{
+    display: grid;
+    grid-gap: .5rem;
+    grid-row: 2/3;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+.footer{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    grid-row: 3/4;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+  }
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+
+  }
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+input [type="checkbox"]  {
+    width: 22px;
+    height: 22px;
+    justify-content: flex-end;
+    
+
+}
+
+button {
+
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+  display: block;
+}
+
+button:hover {
+    background-color: darkgreen;
 }
