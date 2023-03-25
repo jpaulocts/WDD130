@@ -411,3 +411,10 @@ button:hover {
 #message{
     margin: 1rem;
 }
+
+.wireframe {
+
+    display: block;
+    padding: 20px;
+    grid-column: 1/2;
+}
