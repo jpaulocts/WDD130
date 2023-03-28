@@ -78,7 +78,7 @@ header img {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: black;
     text-align: center;
 }
 
@@ -283,7 +283,7 @@ width: 600px;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     justify-content: flex-start;
-    color: #8EA4D2;
+    color: black;
     grid-template-rows: 50px 50px 50px; 
     
 }
@@ -417,4 +417,10 @@ button:hover {
     display: block;
     padding: 20px;
     grid-column: 1/2;
+    text-emphasis-color: black;
+}
+
+.wireframe a{
+
+    color: black;
 }
